@@ -29,7 +29,6 @@ body {
   text-rendering: optimizeLegibility;
 
   font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 a {
@@ -43,6 +42,80 @@ video {
   vertical-align: middle;
 }
 
+.section {
+  background-color: #ebead2;
+  margin: 15px;
+  padding: 15px;
+}
+
+.box {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.section-1 .box {
+  width: 25%;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-2 .box {
+  width: 50%;
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-3 .box {
+  padding: 10px;
+}
+
+.section-4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.section-4 .box {
+  width: calc(50% - 15px);
+}
+
+.section-5 {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  align-items: center;
+}
+
+.box-1 {
+  height: 75px;
+  width: 100px;
+}
+.box-2 {
+  height: 148px;
+  width: 100px;
+}
+.box-3 {
+  height: 100px;
+  width: 98px;
+}
+.box-4 {
+  height: 197px;
+  width: 100px;
+}
 /* ====================================
 // base rules
 // ==================================== */
